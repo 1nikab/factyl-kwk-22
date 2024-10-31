@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>VolunTeen</title>
+    <link href="indexStyle.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <ul class = "navigation">
+      <a href = "index.html">
+      <img class = "logo" src = "./images/volunteenLogo-removebg-preview.png" alt = "logo">
+      </a>
+      <li class = "navEle"><a href = "index.html">Home</a></li>
+      <li class = "navEle"><a href = "interest-form.html">Interest Form</a></li>
+      <li class = "navEle"><a href = "search.html">Search</a></li>
+      <li class = "navEle"><a href = "contact.html">Contact Us</a></li>
+    </ul>
+
+    <!-- Intro: 
+    center title and create "sliding image" for welcome message -->
+    <style>
+      .parallax {
+        /* The image used */
+        /* taken from google images search */
+        background-image: url("https://imageio.forbes.com/specials-images/imageserve/65ad49201b8a4682439df59f/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds");
+
+        /* Set a specific height */
+        min-height: 500px; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+    <h1 class = "titleHeader">VolunTeen</h1>
+
+    <div class="parallax"></div>
+
+    <h2 class = "message">Welcome to your one-stop shop for all your volunteering needs!</h2>
+
+    <!-- Link to form -->
+    <p class = "interest-form-p">Fill out this interest form to get started finding volunteer opportunities!</p>
+    <button class = "interest-form-btn">Interest form</button>
+
+    <br class = "or"></br>
+    <p class = "line-break"></p>
+
+    <!-- Link to search page -->
+    <p class = "search-page">Search through all available volunteering opportunities!</p>
+    <button class = "search-btn">Search Page</button>
+
+    <!-- <div class = "volImgContainer">
+      <img class = "volunteerimg" src = "" alt = "volunteer">
+    </div> -->
+
+    <script src="index.js"></script>
+  </body>
+</html>

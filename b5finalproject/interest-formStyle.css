@@ -1,0 +1,64 @@
+.search-form{
+  display: flex;
+  justify-content: center;
+  color:darkblue;
+}
+
+body{
+  background-color: lightyellow;
+}
+
+.name{
+  display:inline;
+  font-size: 15px;
+}
+
+.age{
+  display:inline;
+  font-size: 15px;
+}
+
+.interests{
+  display:inline;
+  font-size: 15px;
+}
+
+
+.skills{
+  display:inline;
+  font-size: 15px;
+}
+
+.experience-option{
+  display:inline;
+  font-size: 15px;
+}
+
+.time{
+  display:inline;
+  font-size: 15px;
+}
+
+.concerns{
+  display:inline;
+  font-size: 15px;
+}
+
+.center{
+  text-align: center;
+  font-size: 15px;
+  color:black;
+}
+
+.submit-btn{
+  font-size: 100%;
+  cursor: pointer;
+  color: yellow;
+  background-color: darkblue;
+}
+
+.append {
+  color: black;
+  display: flex;
+  justify-content: center;
+}

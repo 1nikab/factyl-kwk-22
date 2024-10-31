@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Interest Form</title>
+    <link href="indexStyle.css" rel="stylesheet" type="text/css" />
+    <link href="interest-formStyle.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <ul class = "navigation">
+      <a href = "index.html">
+      <img class = "logo" src = "./images/volunteenLogo-removebg-preview.png" alt = "logo">
+      </a>
+      <li class = "navEle"><a href = "index.html">Home</a></li>
+      <li class = "navEle"><a href = "interest-form.html">Interest Form</a></li>
+      <li class = "navEle"><a href = "search.html">Search</a></li>
+      <li class = "navEle"><a href = "contact.html">Contact Us</a></li>
+    </ul>
+
+    <!-- Custom search form -->
+  <h1 class = "search-form">Interest Form</h1>
+  <!-- Information -->
+
+  <div class = "center">
+    <!-- Name (text-input) -->
+    <p class = "name">Name</p>
+    <input class = "name-input" id = "name-inputID" type = "text" placeholder="Your name here">
+    <br>
+    <br>
+
+    <!-- Age (drop-down list)-->
+    <p class = "age">Age group:</p>
+
+      <input type="radio" id="age1" class="age-option" value="Under 18" name = "age">
+      <label for="under-18">Under 18 yrs</label>
+
+      <input type="radio" id="age1" class="age-option" value="Above 18" name = "age">
+      <label for="above-18">Above 18 yrs</label>
+    <br>
+    <br>
+
+  
+
+    <!-- Interests(drop-down list) -->
+    <p class = "interests">Interests</p>
+
+    <select class="interests" id="interests">
+      <option value="education" class = "optionchoice" id = "education">Education</option>
+      <option value="LGBTQ-rights" class = "optionchoice" id = "lgbtq">LGBTQ Rights</option>
+      <option value="disability" class = "optionchoice" id = "disability">Disability Asistance</option>
+      <option value="general" class = "optionchoice" id = "general">General Humanitarian Help</option>
+    </select>
+    <br>
+    <br>
+
+
+    <!-- Experience(check-box input) -->
+    <p class = "experience"> Do you have any prior volunteer experience?</p>
+  <input type="radio" id="yes" clas="option"       value="Yes">
+  <label for="yes">Yes</label>
+  <input type="radio" id="no" class="option" value="No">
+  <label for="no">No</label>
+  <br>
+  <br>
+
+    <!-- <input class = "experience-option" type="checkbox" id="yes" value = "yes">
+    <label class = "experience-option" for="yes"> Yes</label><br>
+    <input class = "experience-option" type="checkbox" id="no" value="no">
+    <label class = "experience-option" for="no"> No</label>
+    <br>
+    <br> -->
+
+
+
+    
+    <!-- Skills(drop-down list) -->
+    <p class = "skills"> Skills</p>
+    <select class="skills" id="skills">
+      <option value="skill1">Communication</option>
+      <option value="skill2">Writing</option>
+      <option value="skill3">Tech Skills</option>
+      <!-- <option value="skill4">skill4</option> -->
+    </select>
+    <br>
+    <br>
+
+  
+    <p class = "concerns">Anyting else?</p>
+    <input class = "concerns" type = "text" placeholder="Concerns"></input>
+    <br>
+    <br>
+    <button class = "submit-btn">Submit</button>
+  </div>
+    
+    
+
+    <p class = "emptyParagraph"> 
+      
+    </p>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="form.js"></script>
+    
+  </body>
+</html>

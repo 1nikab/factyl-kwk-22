@@ -1,0 +1,116 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  background-color: #e6f3f8;
+  text-shadow: 0.5px 0.5px darkblue;
+}
+
+.navEle:hover {
+  text-decoration: overline underline dotted;
+  text-underline-offset: 4px;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.search-bar {
+  display: block;
+  width: 16%;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.titleHeader {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: darkblue;
+  background-color: lightyellow;
+  border: solid 5px gold;
+  width: 500px;
+  padding: 10px;
+}
+
+.logo {
+  display: inline;
+  height: 70px;
+  width: 70px;
+  padding: 1%;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  background-color: gold;
+  padding: 25px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.interest-form-btn {
+  font-size: 20px;
+  padding: 30px;
+  background-color: #e6f3f8;
+  color: darkblue;
+  margin-left: 45%; 
+}
+
+.interest-form-btn:hover {
+  background-color: lightyellow;
+  color: gold;
+}
+
+.interest-form-p {
+  text-align: center;
+  font-size: 25px;
+  margin-left: 40%;
+  width: 300px;
+}
+
+.search-page {
+  font-size: 25px;
+  margin-left: 40%;
+  width: 300px;
+  text-align: center;
+}
+
+.line-break {
+  width: 100%;
+  border-top: 3px solid darkblue;
+}
+
+.search-btn {
+  font-size: 20px;
+  padding: 30px;
+  background-color: #e6f3f8;
+  color: darkblue;
+  margin-left: 45%; 
+}
+
+.search-btn:hover {
+  background-color: lightyellow;
+  color: gold;
+}
+
+.volunteerimg {
+  height: 300px;
+}
+
+.volImgContainer {
+  display: flex;
+  justify-content: center;
+}
